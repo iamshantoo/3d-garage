@@ -32,13 +32,13 @@ RenderSettings:
   m_FlareFadeSpeed: 3
   m_HaloTexture: {fileID: 0}
   m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
-  m_DefaultReflectionMode: 0
+  m_DefaultReflectionMode: 1
   m_DefaultReflectionResolution: 128
-  m_ReflectionBounces: 1
+  m_ReflectionBounces: 3
   m_ReflectionIntensity: 1
-  m_CustomReflection: {fileID: 0}
+  m_CustomReflection: {fileID: 8900000, guid: 625629ec64f7cd241b6619552109703b, type: 3}
   m_Sun: {fileID: 1655378241}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0.4601012, g: 0.47910273, b: 0.501301, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -253,7 +253,7 @@ GameObject:
   - component: {fileID: 230261475}
   - component: {fileID: 230261474}
   m_Layer: 0
-  m_Name: Point Light_Car
+  m_Name: Point Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -281,7 +281,7 @@ MonoBehaviour:
   m_ShadowRenderingLayers: 1
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
-  m_SoftShadowQuality: 0
+  m_SoftShadowQuality: 3
 --- !u!108 &230261475
 Light:
   m_ObjectHideFlags: 0
@@ -293,14 +293,14 @@ Light:
   serializedVersion: 10
   m_Type: 2
   m_Shape: 0
-  m_Color: {r: 1, g: 0.8981546, b: 0.6839622, a: 1}
+  m_Color: {r: 1, g: 0.9524363, b: 0.8160377, a: 1}
   m_Intensity: 20
-  m_Range: 40
+  m_Range: 20
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -336,7 +336,7 @@ Light:
   m_Lightmapping: 4
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
-  m_BounceIntensity: 1
+  m_BounceIntensity: 0
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
@@ -353,7 +353,7 @@ Transform:
   m_GameObject: {fileID: 230261473}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -80.659, y: 18.347, z: 41.54}
+  m_LocalPosition: {x: -80.2, y: 18.839, z: 41.54}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -672,12 +672,12 @@ ReflectionProbe:
   serializedVersion: 2
   m_Type: 0
   m_Mode: 1
-  m_RefreshMode: 1
+  m_RefreshMode: 0
   m_TimeSlicingMode: 0
-  m_Resolution: 512
+  m_Resolution: 2048
   m_UpdateFrequency: 0
-  m_BoxSize: {x: 26.772995, y: 9.970428, z: 9.376183}
-  m_BoxOffset: {x: -1.1769638, y: 0.014785767, z: -0.1038475}
+  m_BoxSize: {x: 21.424118, y: 9.024108, z: 9.376183}
+  m_BoxOffset: {x: -1.7387466, y: -0.4583745, z: -0.1038475}
   m_NearClip: 0.3
   m_FarClip: 1000
   m_ShadowDistance: 100
@@ -737,9 +737,9 @@ ReflectionProbe:
   serializedVersion: 2
   m_Type: 0
   m_Mode: 1
-  m_RefreshMode: 1
+  m_RefreshMode: 0
   m_TimeSlicingMode: 0
-  m_Resolution: 512
+  m_Resolution: 2048
   m_UpdateFrequency: 0
   m_BoxSize: {x: 313.77716, y: 101.653885, z: 423.50113}
   m_BoxOffset: {x: 23.895195, y: 12.950653, z: 15.613388}
@@ -898,8 +898,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1326438034}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.012483919, y: 0.96655303, z: -0.046330754, w: -0.25193822}
-  m_LocalPosition: {x: 27.452389, y: 25.239532, z: 2.403473}
+  m_LocalRotation: {x: -0.02652907, y: 0.34639332, z: -0.008670867, w: -0.9376741}
+  m_LocalPosition: {x: 41.530083, y: 30.756023, z: -48.90516}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1117,12 +1117,12 @@ ReflectionProbe:
   serializedVersion: 2
   m_Type: 0
   m_Mode: 1
-  m_RefreshMode: 1
+  m_RefreshMode: 0
   m_TimeSlicingMode: 0
-  m_Resolution: 512
+  m_Resolution: 2048
   m_UpdateFrequency: 0
-  m_BoxSize: {x: 32.43468, y: 29.524174, z: 36.970673}
-  m_BoxOffset: {x: 1.5627651, y: 0.6035671, z: 1.9056168}
+  m_BoxSize: {x: 32.43468, y: 26.121181, z: 36.004395}
+  m_BoxOffset: {x: 1.5627651, y: -0.5927639, z: 1.4224777}
   m_NearClip: 0.3
   m_FarClip: 1000
   m_ShadowDistance: 100
@@ -1346,7 +1346,7 @@ MonoBehaviour:
   m_ShadowRenderingLayers: 1
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
-  m_SoftShadowQuality: 0
+  m_SoftShadowQuality: 3
 --- !u!108 &1914297284
 Light:
   m_ObjectHideFlags: 0
@@ -1359,8 +1359,8 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 0.94866306, b: 0.8254717, a: 1}
-  m_Intensity: 100
-  m_Range: 50
+  m_Intensity: 20
+  m_Range: 30
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -1401,7 +1401,7 @@ Light:
   m_Lightmapping: 4
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
-  m_BounceIntensity: 1
+  m_BounceIntensity: 0
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
