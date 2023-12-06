@@ -8394,6 +8394,63 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 1
   m_IsActive: 1
+--- !u!1001 &980662525687730475
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1892450326980665633, guid: 9c35e18ab532ff547a124c932a63b350, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -80.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1892450326980665633, guid: 9c35e18ab532ff547a124c932a63b350, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 26.17
+      objectReference: {fileID: 0}
+    - target: {fileID: 1892450326980665633, guid: 9c35e18ab532ff547a124c932a63b350, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 41.69
+      objectReference: {fileID: 0}
+    - target: {fileID: 1892450326980665633, guid: 9c35e18ab532ff547a124c932a63b350, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 1892450326980665633, guid: 9c35e18ab532ff547a124c932a63b350, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 1892450326980665633, guid: 9c35e18ab532ff547a124c932a63b350, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1892450326980665633, guid: 9c35e18ab532ff547a124c932a63b350, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1892450326980665633, guid: 9c35e18ab532ff547a124c932a63b350, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 1892450326980665633, guid: 9c35e18ab532ff547a124c932a63b350, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1892450326980665633, guid: 9c35e18ab532ff547a124c932a63b350, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6235471687411312330, guid: 9c35e18ab532ff547a124c932a63b350, type: 3}
+      propertyPath: m_Name
+      value: Spot Light
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9c35e18ab532ff547a124c932a63b350, type: 3}
 --- !u!1 &991175844053589097
 GameObject:
   m_ObjectHideFlags: 0
@@ -15455,3 +15512,4 @@ SceneRoots:
   - {fileID: 871023830}
   - {fileID: 364879490}
   - {fileID: 1190043336}
+  - {fileID: 980662525687730475}
